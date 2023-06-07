@@ -1,51 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1684896128107" clover="3.2.0">
-  <project timestamp="1684896128107" name="All files">
-    <metrics statements="33" coveredstatements="31" conditionals="3" coveredconditionals="3" methods="8" coveredmethods="6" elements="44" coveredelements="40" complexity="0" loc="33" ncloc="33" packages="2" files="2" classes="2"/>
-    <package name="src.pages.week4">
-      <metrics statements="29" coveredstatements="29" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6"/>
-      <file name="week4.tsx" path="/Users/kimseunghwan/Desktop/frondend-tdd/src/pages/week4/week4.tsx">
-        <metrics statements="29" coveredstatements="29" conditionals="3" coveredconditionals="3" methods="6" coveredmethods="6"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="14" type="stmt"/>
-        <line num="6" count="14" type="stmt"/>
-        <line num="7" count="14" type="stmt"/>
-        <line num="8" count="14" type="stmt"/>
-        <line num="10" count="14" type="stmt"/>
-        <line num="11" count="14" type="stmt"/>
-        <line num="13" count="14" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="17" count="14" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
-        <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="22" count="14" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
-        <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="28" count="14" type="stmt"/>
-        <line num="29" count="3" type="stmt"/>
-        <line num="30" count="3" type="stmt"/>
-        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="33" count="14" type="stmt"/>
-        <line num="34" count="2" type="stmt"/>
-        <line num="35" count="2" type="stmt"/>
-        <line num="70" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="utils">
-      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-      <file name="api.ts" path="/Users/kimseunghwan/Desktop/frondend-tdd/utils/api.ts">
-        <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="0" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1685438088442" clover="3.2.0">
+  <project timestamp="1685438088442" name="All files">
+    <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1" elements="13" coveredelements="7" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="api.ts" path="/Users/kimseunghwan/Desktop/frondend-tdd/utils/api.ts">
+      <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+    </file>
   </project>
 </coverage>

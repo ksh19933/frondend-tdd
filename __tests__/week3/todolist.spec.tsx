@@ -13,10 +13,12 @@ describe("todo list test", () => {
   beforeEach(() => {
     renderedComponent = render(<TodoList />);
   });
+
   it('컴포넌트는 todoList가 비어 있을 때는 "할 일이 없습니다."라는 메시지를 보여주어야 합니다.', () => {
     const { getByText } = renderedComponent;
     expect(getByText("할 일이 없습니다.")).toBeInTheDocument();
   });
+
   it("input 필드에는 새로운 할 일을 입력할 수 있습니다.", () => {
     const { getByRole } = renderedComponent;
     const input = getByRole("textbox");
@@ -31,6 +33,7 @@ describe("todo list test", () => {
     fireEvent.click(addBtn);
     expect(getByText("Clean the house")).toBeInTheDocument();
   });
+
   it("각각의 할 일은 삭제 버튼이 있어야 하며, 삭제 버튼을 누르면 해당 할 일이 todoList에서 제거되어야 합니다.", () => {
     const { getByTestId, queryByText } = renderedComponent;
     const input = getByTestId("input_todo");
